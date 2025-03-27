@@ -66,6 +66,8 @@ The primary goal of this project is to perform predictive data analysis on the m
 - The model can be deployed using:
   - A **Flask API** for web-based recommendations.
   - **Streamlit** or other interactive dashboards for a user-friendly interface.
+![Screenshot 2025-03-27 010200](https://github.com/user-attachments/assets/3994fe8d-a95a-4f8a-9b2e-e3b7fe5c3850)
+
 ### Requirements:
 - Python 3.6+
 - Jupyter Notebook, PyCharm

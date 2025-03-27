@@ -1,8 +1,10 @@
 # PREDICTIVE DATA ANALYSIS
 ## Project Description: Predictive Data Analysis (PDA) on Movie Dataset
 ## Project Title: Movie Recommender System
-## Objective: The primary goal of this project is to perform predictive data analysis on the movie dataset and recommend a movie based on any of the movie which we have liked and seen. It takes into account all the factors such as director, actors, producers, genre, etc of the movie and will recommend 5 movies which are similar to the movie which we have already seen.
-## Dataset: [https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata](url) <br> The Dataset can be downloaded from Kaggle and link for same has been given above. The dataset mainly has two files, "tmdb_5000_credits" and "tmdb_5000_movies". Each Excel has following columns:
+## Objective: 
+The primary goal of this project is to perform predictive data analysis on the movie dataset and recommend a movie based on any of the movie which we have liked and seen. It takes into account all the factors such as director, actors, producers, genre, etc of the movie and will recommend 5 movies which are similar to the movie which we have already seen.
+## Dataset: 
+[https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata](url) <br> The Dataset can be downloaded from Kaggle and link for same has been given above. The dataset mainly has two files, "tmdb_5000_credits" and "tmdb_5000_movies". Each Excel has following columns:
 ### tmdb_5000_credits:
 - movie_id: Unique ID to identify movies. Also a primary key.
 - title: Name of the film
@@ -66,6 +68,11 @@
   - **Streamlit** or other interactive dashboards for a user-friendly interface.
 ### Requirements:
 - Python 3.6+
-- Pandas
-- NumPy
-- Scikit-learn
+- Jupyter Notebook, PyCharm
+- Libraries: Pandas, Numpy, scikit_learn, nltk, streamlit, pickle
+### Deliverables
+- The project includes the following deliverables:
+  1. Source Code: Python scripts and Jupyter Notebooks for building and testing the recommendation system.
+  2. Dataset: Processed dataset used for training and evaluating the model.
+  3. Model Files: Saved models in the form of .zip for reproducibility.
+  4. README File: Documentation with project details, installation steps, and methodology.
